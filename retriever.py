@@ -1,14 +1,7 @@
 from langchain_community.vectorstores import Chroma
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.retrievers import BM25Retriever
-# Dynamic import to handle all LangChain version layouts
-try:
-    from langchain.retrievers import EnsembleRetriever
-except ImportError:
-    try:
-        from langchain_community.retrievers import EnsembleRetriever
-    except ImportError:
-        from langchain_classic.retrievers import EnsembleRetriever
+from langchain_classic.retrievers import EnsembleRetriever
 
 def get_hybrid_retriever(chunks, persist_dir: str = "./chroma_db"):
     """Builds an Ensemble Retriever combining BM25 keyword and Chroma vector search."""
