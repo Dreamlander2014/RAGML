@@ -27,4 +27,4 @@ def get_hybrid_retriever(chunks, persist_dir: str = "./chroma_db"):
         retrievers=[bm25_retriever, dense_retriever],
         weights=[0.5, 0.5]
     )
-    return hybrid_retriever
+    return hybrid_retriever, vectorstore
