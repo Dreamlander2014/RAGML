@@ -1,0 +1,3 @@
+﻿method,supported_n,unsupported_n,correct_abstention_rate,false_refusal_rate,unsupported_answer_rate,partial_count,needs_review_count,mean_retrieval_seconds,mean_generation_seconds
+Dense,10,10,1.0,0.0,0.0,0,0,1.575,26.135
+Hybrid,10,10,1.0,0.0,0.0,1,0,1.191,23.78

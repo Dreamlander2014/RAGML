@@ -1,0 +1,11 @@
+﻿question_id,query_type,question,method,mean_latency_ms,median_latency_ms,unique_sources,context_characters
+Q1,semantic,How can hospital staff stop germs from spreading between patients?,Dense,8.44,8.37,3,2162
+Q1,semantic,How can hospital staff stop germs from spreading between patients?,Hybrid,14.46,14.02,2,2168
+Q2,exact,What are standard precautions in infection prevention and control?,Dense,10.06,8.06,2,1807
+Q2,exact,What are standard precautions in infection prevention and control?,Hybrid,14.39,13.98,3,1768
+Q3,semantic,When should healthcare workers clean their hands during patient care?,Dense,10.61,8.29,3,1410
+Q3,semantic,When should healthcare workers clean their hands during patient care?,Hybrid,13.03,12.55,3,2052
+Q4,exact,What are the guidelines for personal protective equipment (PPE)?,Dense,8.5,8.52,3,1878
+Q4,exact,What are the guidelines for personal protective equipment (PPE)?,Hybrid,14.49,14.64,3,1713
+Q5,mixed,What PPE should nurses use to prevent infection during patient care?,Dense,8.55,8.38,3,1388
+Q5,mixed,What PPE should nurses use to prevent infection during patient care?,Hybrid,15.34,14.38,2,2075

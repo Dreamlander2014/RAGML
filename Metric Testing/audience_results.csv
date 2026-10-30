@@ -1,0 +1,465 @@
+﻿topic,audience,question,answer,retrieved_context,retrieved_chunks,retrieval_seconds,generation_seconds,judge_seconds,appropriateness,clarity,terminology,actionability,suitability_percent,judge_reason,judge_error,human_verified
+hand_hygiene,staff,When should hand hygiene be performed during patient care in a hospital?,"Hand hygiene should be performed in the following situations:
+
+*   **Before and after significant contact with other residents** (data/national-ipc-guidelines-for-long-term-care-facilities_2021_revised_2nd-edition_moh-website.pdf | Page: 59)
+*   **After using the toilet or commode** (data/national-ipc-guidelines-for-long-term-care-facilities_2021_revised_2nd-edition_moh-website.pdf | Page: 58; data/national-ipc-guidelines-for-primary-care_on-moh-website_finalcfeeec720d8e48c88e26b91118c6736f.pdf | Page: 52)
+*   **After blowing nose, coughing, or sneezing** (data/national-ipc-guidelines-for-long-term-care-facilities_2021_revised_2nd-edition_moh-website.pdf | Page: 58)
+*   **After touching hospital surfaces** such as bed rails, bedside tables, doorknobs, remote controls, or the phone (data/national-ipc-guidelines-for-long-term-care-facilities_2021_revised_2nd-edition_moh-website.pdf | Page: 58)
+*   **After removal of gloves** (data/national-ipc-guidelines-for-primary-care_on-moh-website_finalcfeeec720d8e48c88e26b91118c6736f.pdf | Page: 52)
+*   **When entering or leaving a patient’s room or bed space:** Put on a gown before entry, and remove the gown and perform hand hygiene immediately after leaving the room or bed space (data/the-national-infection-prevention-and-control-guidelines-for-acute-healthcare-facilities---2017.pdf | Page: 28)
+*   **When hands are visibly soiled with blood or other body fluids, or when exposed or potentially exposed to spore-forming microorganisms:** Soap and water are the preferred means for hand hygiene (data/national-ipc-guidelines-for-primary-care_on-moh-website_finalcfeeec720d8e48c88e26b91118c6736f.pdf | Page: 52)
+
+**Source Citation and Relevance Score:**
+
+*   **data/the-national-infection-prevention-and-control-guidelines-for-acute-healthcare-facilities---2017.pdf | Page: 28** (Score: 79.88%)
+*   **data/national-ipc-guidelines-for-long-term-care-facilities_2021_revised_2nd-edition_moh-website.pdf | Page: 58** (Score: 78.92%)
+*   **data/national-ipc-guidelines-for-primary-care_on-moh-website_finalcfeeec720d8e48c88e26b91118c6736f.pdf | Page: 52** (Score: 78.35%)","[Doc: data/the-national-infection-prevention-and-control-guidelines-for-acute-healthcare-facilities---2017.pdf | Page: 28 | Score: 79.88%]
+contact, hand hygiene alone is adequate. When indicated, put on a gown 
+before entry into the patient’s room or bed space. Remove gown and 
+perform hand hygiene immediately after leaving the room or bed space. 
+[BIII]
+
+[Doc: data/national-ipc-guidelines-for-long-term-care-facilities_2021_revised_2nd-edition_moh-website.pdf | Page: 58 | Score: 78.92%]
+d) After using the toilet or commode 
+e) After blowing nose, coughing, or sneezing 
+f) After touching hospital surfaces such as bed rails, bedside tables, doorknobs, 
+remote controls, or the phone 
+g) Before and after significant contact with other residents 
+Residents should be also encouraged to: 
+a) Ask staff about hand hygiene practices 
+b) Participate in hand hygiene 
+c) Ask family and visitors to clean their hands when they visit them 
+d) Ask sick family or visitors to refrain from visiting 
+ 
+6.4 Skin Reactions related to Alcohol Based Hand Rub
+
+[Doc: data/national-ipc-guidelines-for-primary-care_on-moh-website_finalcfeeec720d8e48c88e26b91118c6736f.pdf | Page: 52 | Score: 78.35%]
+clinical situations. 
+3. Soap and water are the preferred means for hand hygiene when hands are 
+visibly soiled with blood or other body fluids, when exposed or potentially 
+exposed to spore-forming microorganisms, and after use of the toilet. 
+4. Hand hygiene should be performed after removal of gloves. 
+ 
+Figure 6.1:  WHO’s 4 Hand Hygiene Moments in Outpatient Setting
+
+[Doc: data/national-ipc-guidelines-for-long-term-care-facilities_2021_revised_2nd-edition_moh-website.pdf | Page: 59 | Score: 76.55%]
+Long-term Care Facilities.  
+World Health Organization. (2009). WHO Guidelines on Hand Hygiene in Health Care: a 
+Summary.",4,31.577,53.194,19.713,2,2,2,2,100.0,"The response provides a clear, well-structured list of specific situations requiring hand hygiene, which is highly appropriate for hospital staff. The information is clear, uses appropriate clinical terminology, and is highly actionable for immediate implementation in patient care settings.",,
+hand_hygiene,public,When should hand hygiene be performed during patient care in a hospital?,"Hand hygiene should be performed before you make contact with a patient, and before you perform tasks that require sterility, such as inserting an IV or preparing an injection.
+
+**Source Citation:** data/national-ipc-guidelines-for-outpatient-dialysis-centres-_-(on-moh-website).pdf | Page: 34 | Score: 73.30%","[Doc: data/national-ipc-guidelines-for-outpatient-dialysis-centres-_-(on-moh-website).pdf | Page: 34 | Score: 73.30%]
+inputs and implemented in all dialysis centres. 
+2) Each healthcare setting must have written hand hygiene policies and procedures.  
+3) Hand hygiene agents are to be made available at point-of-care in all healthcare settings. 
+4) Wash hands with soap and water if there is visible soiling with dirt, blood, body fluids or 
+other body substances.  
+5) Indications where hand hygiene should be performed: 
+a. Before contact with a patient. 
+b. Before performing an aseptic task (e.g., insertion of IV, preparing an injection).
+
+[Doc: data/national-ipc-guidelines-for-outpatient-dialysis-centres-_-(on-moh-website).pdf | Page: 21 | Score: 73.28%]
+Hand hygiene compliance can be improved by ensuring sufficient number of sinks with soap 
+dispensers, single-useuse paper towels and hand lotions are available at each sink. Alcohol-based 
+hand rub should be available facility widewide at point of carecare and healthcare workers require 
+regular feedback of hand hygiene surveillance results. Education and training to e nsure full 
+awareness of infection control policies and procedures should be provided to all H CWs and be 
+repeated periodically. The patient and/or caregiver should also be educated on hand hygiene and
+
+[Doc: data/national-ipc-guidelines-for-outpatient-dialysis-centres-_-(on-moh-website).pdf | Page: 28 | Score: 72.93%]
+hygiene should be universal for all patient contact, the use of gloves should be task specific:
+
+[Doc: data/national-ipc-guidelines-for-outpatient-dialysis-centres-_-(on-moh-website).pdf | Page: 20 | Score: 71.56%]
+healthcare-associated infections. Hand hygiene is the most important and effective procedure to 
+prevent and control the spread of hospital associated infections (HAIs). It is the responsibility of all 
+HCWs to carry this out at the right moments during patient care.  
+ 
+Microbial transmission may occur via contaminated hands during healthcare delivery e.g.  
+i) Pathogens shed by infected patients can contaminate surrounding environments,",4,4.937,12.657,14.179,2,2,2,2,100.0,"The response is highly suitable for a public audience. It clearly and simply explains when hand hygiene should occur, using understandable context and actionable examples (contact with a patient, sterile tasks).",,
+ppe,staff,What protective equipment is used for contact precautions in hospital care?,"Protective equipment used for contact precautions in hospital care includes gowns and gloves when there is significant body contact during care.
+
+**Source Citation and Relevance:**
+*   **data/national-ipc-guidelines-for-chs_on-moh-website_23april.pdf** (Page 53, Score: 71.31%)
+*   **data/the-national-infection-prevention-and-control-guidelines-for-acute-healthcare-facilities---2017.pdf** (Page 28, Score: 68.50%)
+
+**Clinical Technical Details:**
+When significant body contact occurs during patient care, staff are required to wear a gown and gloves to prevent contamination that could occur through contaminated gloves and gowns/aprons. Hand hygiene is also emphasized as a key preventive measure to break the chain of infection.","[Doc: data/national-ipc-guidelines-for-chs_on-moh-website_23april.pdf | Page: 53 | Score: 71.31%]
+Practice Contact and Droplet Precautions for patients who are respiratory dispersers. 
+ 
+ Patient should continue with physiotherapy  or rehabilitative activities – where there is 
+significant body contact, staff are to wear gown and gloves.  Any common equipment used should 
+be disinfected with hospital approved disinfectant. 
+ 
+Nursing notes, charts, X-rays, etc. are not to be taken into the patient’s room or cubicle. 
+Documentation is to be done outside the patient’s room or cubicle. Dedicated instruments or
+
+[Doc: data/the-national-infection-prevention-and-control-guidelines-for-acute-healthcare-facilities---2017.pdf | Page: 28 | Score: 70.18%]
+Infection Prevention and Control staff should inform clinical staff of patients who 
+on contact precautions. Patients should be identified as per hospital protocol, e.g. by 
+using coloured stickers in the patient case sheet, ‘O slot’ vision outside the patient 
+room, or electronic tagging to inform all HCPs on the precautions to be taken. 
+7 Recommendations 
+a) In acute care settings and community hospitals, place patients who 
+require Contact Precautions in a single room with dedicated toilet and 
+patient sink when available.  Where isolation rooms are not available,
+
+[Doc: data/national-ipc-guidelines-for-chs_on-moh-website_23april.pdf | Page: 53 | Score: 69.03%]
+Page 53 of 56 
+National IPC Guidelines for Community Hospitals,2021  
+Contact Precautions should be strictly practiced for all MDROs in isolation or cohort areas 
+by all staff attending to the patient. Where there is significant body contact during care, gown and 
+gloves are to be worn; otherwise hand hygiene by staff is the key preventive measure to break 
+chain of infection.  Visitors and caregivers do not need to wear gown and gloves but should be 
+taught to practice hand hygiene. 
+ 
+Practice Contact and Droplet Precautions for patients who are respiratory dispersers.
+
+[Doc: data/the-national-infection-prevention-and-control-guidelines-for-acute-healthcare-facilities---2017.pdf | Page: 28 | Score: 68.50%]
+Part I. Specific Precautions:  
+Chapter 3. Contact Precautions 
+National Infection Prevention Control Guidelines for Acute Healthcare Facilities, 2017 Page | 28 
+ 
+contamination that could occur through contaminated gloves and gowns/ apron. 
+Clients/patients who are also on droplet precautions should wear a surgical mask en-
+route.  Transport equipment should be properly cleaned after patient transport is 
+completed. 
+ 
+6 Communication 
+ Infection Prevention and Control staff should inform clinical staff of patients who",4,2.771,23.017,14.419,2,2,2,2,100.0,"The response is highly appropriate for staff, clearly identifying the required protective equipment (gowns and gloves) and the condition under which they are used (significant body contact). The information is clear and directly actionable for clinical practice.",,
+ppe,public,What protective equipment is used for contact precautions in hospital care?,"Contact Precautions are used when a patient is known or suspected to be infected or colonized with microorganisms that can be spread by direct contact (hand or skin to skin) or indirect contact with contaminated surfaces or items.
+
+The text defines the general types of protective equipment (PPE) that can be used, which include gloves, gowns, facemasks, respirators, goggles, and face shields.
+
+Source Citation: data/national-ipc-guidelines-for-outpatient-dialysis-centres-_-(on-moh-website).pdf | Page: 33 | Score: 62.65%","[Doc: data/national-ipc-guidelines-for-outpatient-dialysis-centres-_-(on-moh-website).pdf | Page: 33 | Score: 65.53%]
+Contact Precautions are used in the acute inpatient setting for patients known or suspected 
+to be infected or colonized with epidemiologically important microorganisms that can be transmitted 
+by direct conta ct with the patient (hand or skin to skin) or indirect contact with contaminated 
+environmental surfaces or patient care items in the patient’s environment. However, in ambulatory 
+settings including outpatient dialysis centres they are not practical, effective or necessary.  Instead, 
+the use of Standard Precautions is adequate. 
+ 
+3.11.2 Droplet Precautions
+
+[Doc: data/national-ipc-guidelines-for-outpatient-dialysis-centres-_-(on-moh-website).pdf | Page: 17 | Score: 64.15%]
+• Provide and use appropriately PPE (Personal Protective Equipment)  when potentially 
+exposed to blood and body fluids as part of standard precautions; apron/gowns, gloves, 
+visor/face shield; 
+• Hand hygiene after handling blood or body fluids;  
+• Safe handling of sharps, safer techniques, use of needless devices, sharp box.
+
+[Doc: data/national-ipc-guidelines-for-outpatient-dialysis-centres-_-(on-moh-website).pdf | Page: 28 | Score: 63.77%]
+Note: Tools can be obtained from WHO website at www.who.int/gpsc/en or 
+http://www.who.int/gpsc/country_work/hhsa_framework_October_2010.pdf?ua=1.  
+ 
+3.6 Personal Protective Equipment (PPE)  
+PPE is intended to protect HCWs from exposure to or contact with infectious agents. These 
+include gloves, gowns, facemasks, respirators, goggles and face shields. The selection of PPE  is 
+based on the nature of the patient interaction and relies on the HCW’s assessment of the likely risk 
+of coming into contact with blood, body fluids, non -intact skin, mucous membranes, or items that
+
+[Doc: data/national-ipc-guidelines-for-outpatient-dialysis-centres-_-(on-moh-website).pdf | Page: 33 | Score: 62.65%]
+Precautions alone.  
+There are three categories of Transmission-based precautions:  
+1. Contact Precautions,  
+2. Droplet Precautions, and  
+3. Airborne Infection Isolation Precautions.  
+ 
+Transmission-based precautions are usually applied for patients who are known or 
+suspected to be infected or colonized with infectious agents, including certain epidemiologically 
+important pathogens that require additional control measures to effectively prevent transmission.  
+ 
+3.11.1 Contact Precautions 
+Contact Precautions are used in the acute inpatient setting for patients known or suspected",4,0.436,20.386,19.63,2,2,1,1,75.0,"The response is appropriate for the public audience, clearly defining the context of contact precautions and listing relevant equipment. Clarity is good, but the terminology (PPE, specific precautions) is presented without sufficient simplification for a general audience. Actionability is moderate, as the information is informative but not directly actionable for the general public.",,
+standard_precautions,staff,What are standard precautions in infection prevention and control?,"Standard Precautions are the minimum infection prevention practices that apply to all patient care, regardless of the patient's suspected or confirmed infection status, in any setting where healthcare is delivered. They are designed to protect healthcare professionals (HCPs) and prevent the spread of infections among patients, especially those involving blood-borne pathogens.
+
+The purpose of Standard Precautions is to reduce the risk of transmission of pathogens (bacterium, virus, fungi, or other microorganisms) from both recognized and unrecognized sources in the healthcare setting for the prevention and control of healthcare-associated infections (HAIs). This applies to all staff involved in the delivery of patient care.
+
+Standard Precautions include:
+*   Hand hygiene
+*   Use of personal protective equipment (e.g., gloves, gowns, masks)
+*   Safe injection practices
+
+**Source Citation:**
+*   data/national-ipc-guidelines-for-chs_on-moh-website_23april.pdf (Page 24, Score: 82.96%)
+*   data/the-national-infection-prevention-and-control-guidelines-for-acute-healthcare-facilities---2017.pdf (Page 13, Score: 80.19%)","[Doc: data/national-ipc-guidelines-for-chs_on-moh-website_23april.pdf | Page: 24 | Score: 82.96%]
+Page 24 of 56 
+National IPC Guidelines for Community Hospitals,2021  
+CHAPTER 4   INFECTION PREVENTION AND CONTROL PRECAUTIONS  
+____________________________________________________________________________ 
+4.1 Standard Precautions  
+The purpose of Standard Precautions is t o reduce the risk of transmission of pathogens 
+(bacterium, virus, fungi or other micro -organisms) from both recognised and unrecognised 
+sources in the healthcare setting for the prevention and control of healthcare-associated infections 
+(HAIs). This applies to all staff involved in the delivery of patient care.
+
+[Doc: data/national-ipc-guidelines-for-chs_on-moh-website_23april.pdf | Page: 5 | Score: 80.90%]
+CHAPTER 4   INFECTION PREVENTION AND CONTROL PRECAUTIONS ............................. 24
+
+[Doc: data/the-national-infection-prevention-and-control-guidelines-for-acute-healthcare-facilities---2017.pdf | Page: 13 | Score: 80.19%]
+Standard Precautions are the minimum infection prevention practices that apply 
+to all patient care, regardless of suspected or confirmed infection status of the patient, 
+in any setting where healthcare is delivered. These practices are  designed to both 
+protect HCPs, and prevent them from spreading infections among patients, especially 
+those involving blood-borne pathogens. Standard Precautions include:  
+a) hand hygiene; 
+b) use of personal protective equipment (e.g. gloves, gowns, masks);  
+c) safe injection practices;
+
+[Doc: data/the-national-infection-prevention-and-control-guidelines-for-acute-healthcare-facilities---2017.pdf | Page: 21 | Score: 79.35%]
+Part I. Specific Precautions:  
+Chapter 1. Standard Precautions 
+National Infection Prevention Control Guidelines for Acute Healthcare Facilities, 2017 Page | 21 
+ 
+Personal Protective Equipment:  Clothing or equipment worn by staff for 
+protection against hazards. 
+Sterilization: using specialized cleansing techniques to destroy all living 
+microorganisms, such as pathogenic or saprophytic bacteria, vegetative 
+forms, and spores. 
+ 
+6 References 
+Siegel JD, Rhinehart E, Jackson M, Chiarello L, and the Healthcare Infection 
+Control Practices Advisory Committ ee, 2007 Guideline for Isolation",4,0.87,26.809,26.974,2,2,2,2,100.0,"The response is highly suitable for staff. It clearly defines Standard Precautions, explains the purpose, and lists specific, actionable practices (hand hygiene, PPE, safe injection) that staff perform daily. The language is clear and the terminology is used appropriately in a clinical context.",,
+standard_precautions,public,What are standard precautions in infection prevention and control?,"Based on the provided context, the document states that the use of Standard Precautions is adequate, but it does not provide a definition of what Standard Precautions are.
+
+**Source Citation:** data/national-ipc-guidelines-for-outpatient-dialysis-centres-_-(on-moh-website).pdf | Page: 33 | Score: 70.63%","[Doc: data/national-ipc-guidelines-for-outpatient-dialysis-centres-_-(on-moh-website).pdf | Page: 33 | Score: 72.41%]
+Precautions alone.  
+There are three categories of Transmission-based precautions:  
+1. Contact Precautions,  
+2. Droplet Precautions, and  
+3. Airborne Infection Isolation Precautions.  
+ 
+Transmission-based precautions are usually applied for patients who are known or 
+suspected to be infected or colonized with infectious agents, including certain epidemiologically 
+important pathogens that require additional control measures to effectively prevent transmission.  
+ 
+3.11.1 Contact Precautions 
+Contact Precautions are used in the acute inpatient setting for patients known or suspected
+
+[Doc: data/national-ipc-guidelines-for-outpatient-dialysis-centres-_-(on-moh-website).pdf | Page: 33 | Score: 70.63%]
+the use of Standard Precautions is adequate. 
+ 
+3.11.2 Droplet Precautions 
+Droplet precautions are used for patients known or suspected to be infected with 
+microorganisms transmitted by large particle droplets (larger than 5μm in size) that can be 
+generated by patients coughing, sneezing, and talking when performing procedures.  
+ 
+Transmission requires close contact between source and susceptible host because droplets 
+do not remain suspended in air and generally travel only short distances (up to 2 metres) through 
+the air. 
+ 
+3.11.3 Airborne Infection Isolation Precautions
+
+[Doc: data/national-ipc-guidelines-for-outpatient-dialysis-centres-_-(on-moh-website).pdf | Page: 35 | Score: 68.26%]
+Care Facilities, MMWR June 6, 2003/ Vol.52/No. RR-10.   
+3. CDC. Management of Multidrug -Resistant Organisms in Healthcare Settings, 2006.  2006; 1- 
+74. Available from: http://www.cdc.gov/hicpac/pdf/MDRO/MDROGuideline2006.pdf.  
+4. CDC (2007), Guideline for Isolation Precautions: Preventing Transmission of Infectious Agents 
+in Healthcare Settings  
+5. Guideline for the Management of Multidrug-Resistant Organisms in Healthcare Settings, 2006  
+6. CDC. Guideline for Hand Hygiene in Healthcare Settings. Recommendations of the Healthcare
+
+[Doc: data/national-ipc-guidelines-for-outpatient-dialysis-centres-_-(on-moh-website).pdf | Page: 36 | Score: 67.98%]
+Facility Am J Infect Control:36: 504-535. 
+13. Siegel JD, Rhinehart E, Jackson M, Chiarello L, and the Healthcare Infection Control Practices 
+Advisory Committee, 2007 Guideline for Is olation Precautions: Preventing Transmission of 
+Infectious Agents in Healthcare Settings. 
+14. WHO Guidelines on Hand Hygiene in Health Care, 2009, First Global Patient Safety Challenge 
+Clean Care is Safer Care. 
+15. Centres for Disease Control (CDC, USA), Guidelines for Hand Hygiene in Health-care Settings. 
+MMWR 2002; Vol. 51, no. RR-16",4,0.452,21.87,27.773,1,2,1,0,50.0,"The response correctly identifies that the definition is missing but fails to provide the requested information. While the statement is clear, it does not answer the user's question, making the information not actionable for the public. The lack of a definition limits its appropriateness and actionability.",,
+respiratory_hygiene,staff,What respiratory hygiene measures should be followed in a hospital?,"The following respiratory hygiene measures should be followed:
+
+**Respiratory Hygiene/Cough Etiquette Measures:**
+
+1.  **Covering Mouths and Noses:** Cover the nose and mouth when coughing or sneezing (Source: data/national-ipc-guidelines-for-chs_on-moh-website_23april.pdf, Page 27; data/national-ipc-guidelines-for-long-term-care-facilities_2021_revised_2nd-edition_moh-website.pdf, Page 31).
+2.  **Mask Usage:** Use surgical masks for individuals who are coughing (Source: data/national-ipc-guidelines-for-chs_on-moh-website_23april.pdf, Page 27).
+3.  **Secretion Containment and Disposal:** Use tissues to contain respiratory secretions and dispose of them in a non-touch disposal bin (e.g., a bin with a foot pedal-operated lid) (Source: data/national-ipc-guidelines-for-chs_on-moh-website_23april.pdf, Page 27).
+4.  **Hand Hygiene:** Perform hand hygiene after contact with respiratory secretions (Source: data/national-ipc-guidelines-for-chs_on-moh-website_23april.pdf, Page 27).
+5.  **Containment Measures:** Implement measures to contain respiratory secretions in patients and accompanying individuals or visitors who have signs and symptoms of respiratory infection to prevent the spread of respiratory pathogens (Source: data/national-ipc-guidelines-for-chs_on-moh-website_23april.pdf, Page 27).
+
+**Source Citation and Relevance Score:**
+
+*   **Source:** data/national-ipc-guidelines-for-chs_on-moh-website_23april.pdf (Page 27)
+    *   **Relevance Score:** 71.83%
+*   **Source:** data/national-ipc-guidelines-for-long-term-care-facilities_2021_revised_2nd-edition_moh-website.pdf (Page 31)
+    *   **Relevance Score:** 71.78%","[Doc: data/national-ipc-guidelines-for-chs_on-moh-website_23april.pdf | Page: 27 | Score: 71.83%]
+respiratory hygiene/cough etiquette as follows: 
+a) Cover their mouths and noses when coughing or sneezing 
+b) Use surgical masks (for those who are coughing) 
+c) Use tissues to contain respiratory secretions and dispose them in a non – touch disposal 
+bin (e.g. a bin with foot pedal-operated lid) 
+d) Perform hand hygiene after contact with respiratory secretions 
+e) Implement measures to contain respiratory secretions in patients and accompanying 
+individuals or visitors who have signs and symptoms of respiratory infection to prevent 
+spread of respiratory pathogens
+
+[Doc: data/national-ipc-guidelines-for-long-term-care-facilities_2021_revised_2nd-edition_moh-website.pdf | Page: 31 | Score: 71.78%]
+National Infection Prevention Control Guidelines for Long Term Care Facilities, 2021     Page 31 
+ 
+3.9.3 Respiratory Hygiene/Cough Etiquette 
+The purpose of respiratory hygiene is to prevent the transmission of respiratory 
+infections. It is recommended that visual alerts be posted at appropriate locations to inform 
+staff, residents and visitors to practise respiratory hygiene/cough etiquette. 
+ 
+The following respiratory hygiene/co ugh etiquette measures to contain respiratory 
+secretions are recommended for individuals with symptoms. 
+a) Cover the nose/mouth when coughing or sneezing;
+
+[Doc: data/guidance-for-assessment-and-maintenance-of-effective-ventilation-in-acute-care-hospitals-2024_final.pdf | Page: 1 | Score: 71.13%]
+GUIDANCE FOR ASSESSMENT AND MAINTENANCE OF 
+EFFECTIVE VENTILATION IN ACUTE CARE HOSPITALS: 
+BEST PRACTICE RECOMMENDATIONS FOR INFECTION 
+PREVENTION AND CONTROL 
+ 
+2024
+
+[Doc: data/the-national-infection-prevention-and-control-guidelines-for-acute-healthcare-facilities---2017.pdf | Page: 23 | Score: 69.81%]
+Hygiene/Cough Etiquette.   
+ 
+4 Environmental control 
+ Patient-care items, bedside equipment and frequently touched surfaces should 
+be cleaned in between patient use with hospital-approved disinfectants. 
+ 
+5 Patient-care equipment and linen 
+ Where possible, dedicate the use of non -critical patient-care equipment and 
+items such stethoscope, sphygmomanometer or bedside commode to a single patient 
+(or cohort of patients infected or colonised with the same pathogen). If sharing of 
+common equipment or items is unavoidable, ensure adequate cleaning and",4,0.896,40.097,18.682,2,2,2,2,100.0,"The response provides clear, actionable, and highly relevant respiratory hygiene measures directly applicable to hospital staff. The information is well-structured and easy to follow.",,
+respiratory_hygiene,public,What respiratory hygiene measures should be followed in a hospital?,"To practice good respiratory hygiene in a hospital setting, patients and visitors should follow these measures:
+
+*   **Cover Coughs:** Use tissue to contain any respiratory secretions and dispose of them in a non-touch disposal bin (such as a bin with a foot pedal-operated lid).
+*   **Practice Cough Etiquette:** Inform healthcare personnel of any symptoms of a respiratory infection and practice Respiratory Hygiene/Cough Etiquette.
+*   **Hand Hygiene:** Patients and healthcare workers should perform hand hygiene after having contact with respiratory secretions and contaminated objects or materials.
+
+**Source Citation:** data/national-ipc-guidelines-for-outpatient-dialysis-centres-_-(on-moh-website).pdf | Page: 31 | Score: 67.71%","[Doc: data/national-ipc-guidelines-for-outpatient-dialysis-centres-_-(on-moh-website).pdf | Page: 31 | Score: 67.71%]
+• Use tissue to contain respiratory secretions and dispose in a non -touch disposal bin 
+(e.g. bin with foot pedal-operated lid). 
+• Patients and HCWs should perform hand hygiene after having contact with respiratory 
+secretions and contaminated objects/materials. 
+• Post visual alerts (in appropriate languages) at the entrance of the facilities instructing 
+patients and visitors to inform healthca re personnel of symptoms of a respiratory 
+infection and to practice Respiratory Hygiene/Cough Etiquette. 
+ 
+3.9 Environmental issues including equipment and consumables
+
+[Doc: data/national-ipc-guidelines-for-outpatient-dialysis-centres-_-(on-moh-website).pdf | Page: 5 | Score: 61.06%]
+3.8 Respiratory hygiene/cough etiquette ..................................................................................... 31 
+3.9 Environmental issues including equipment and consumables ...................................... 31 
+3.10 Aseptic technique ........................................................................................................................ 32 
+3.11 Transmission-based precautions ............................................................................................ 33
+
+[Doc: data/national-ipc-guidelines-for-outpatient-dialysis-centres-_-(on-moh-website).pdf | Page: 28 | Score: 58.36%]
+hygiene should be universal for all patient contact, the use of gloves should be task specific:
+
+[Doc: data/national-ipc-guidelines-for-outpatient-dialysis-centres-_-(on-moh-website).pdf | Page: 57 | Score: 56.97%]
+Page 57 of 83 
+National IPC Guidelines for Outpatient Dialysis Centres 
+ 
+Measures of cleanliness as applied to each item in the dialysis/healthcare setting 
+ensure consistent, uniform interpretation of requirements for cleanliness. Measures are used 
+for:  
+• Training of new staff (including cleaning/housekeeping) 
+• Feedback to staff responsible for cleaning 
+• Conducting cleaning audits, and 
+• Ensuring that cleaning expectations are clear and achievable for all staff. 
+ 
+Environmental cleaning audits including the store room should be conducted routinely",4,0.555,24.25,20.711,2,2,2,2,100.0,"The response provides clear, practical, and highly actionable hygiene measures suitable for a public audience. The language is simple, and the steps are easy for patients and visitors to follow.",,
+environmental_cleaning,staff,How should frequently touched surfaces be cleaned in hospital patient-care areas?,"High-touch surfaces require more frequent cleaning and disinfection than minimal contact surfaces. Cleaning and disinfection of frequently touched or high-touched surfaces (e.g., bedrails, bedside tables, commodes, doorknobs, sinks, surfaces, and equipment) is important, especially those closest to the resident (data/national-ipc-guidelines-for-long-term-care-facilities_2021_revised_2nd-edition_moh-website.pdf, Page 32).
+
+Cleaning and disinfection of these surfaces is usually done at least daily and more frequently if the risk of environmental contamination is higher (data/national-ipc-guidelines-for-long-term-care-facilities_2021_revised_2nd-edition_moh-website.pdf, Page 71).
+
+Examples of high-touch surfaces include the nurse’s station, doorknobs, call bells, bedrails, light switches, computer keyboards, and medication carts (data/national-ipc-guidelines-for-long-term-care-facilities_2021_revised_2nd-edition_moh-website.pdf, Page 71).
+
+**Source Citation and Relevance Score:**
+*   **Source:** data/national-ipc-guidelines-for-long-term-care-facilities_2021_revised_2nd-edition_moh-website.pdf
+*   **Relevance Score:** 77.70%","[Doc: data/the-national-infection-prevention-and-control-guidelines-for-acute-healthcare-facilities---2017.pdf | Page: 143 | Score: 78.99%]
+treatment areas. Areas designated in the hospital component are 
+cleaned with a ‘Hospital Clean’ regimen. 
+ 
+1.2  The Patient Environment and High-touch Surfaces in Healthcare Settings 
+Housekeeping surfaces can be divided into two groups – those with minimal 
+hand-contact (e.g. floors, and ceilings) and those with frequent hand -contact (“high 
+touch surfaces”).  Carling’s work has helped define 14 high touch surfaces / points that
+
+[Doc: data/national-ipc-guidelines-for-long-term-care-facilities_2021_revised_2nd-edition_moh-website.pdf | Page: 71 | Score: 77.70%]
+High-touch surfaces require more frequent cleaning and disinfection than minimal 
+contact surfaces. E.g. nurse’s station, doorknobs, call bells, bedrails, light switches, computer 
+keyboards, and medication cart. Cleaning and disinfection is usually done at least daily and 
+more frequently if the risk of environmental contamination is higher.
+
+[Doc: data/national-ipc-guidelines-for-long-term-care-facilities_2021_revised_2nd-edition_moh-website.pdf | Page: 32 | Score: 76.31%]
+National Infection Prevention Control Guidelines for Long Term Care Facilities, 2021     Page 32 
+ 
+3.9.5 Environmental Hygiene 
+Cleaning and disinfecting non -critical surfaces in resident care areas  are part of 
+standard precautions. The cleaning and disinfection of frequently touched or high touched 
+surfaces (e.g. bedrails, bedside tables, commodes, doorknobs, sinks, surfaces and 
+equipment) is important , especially those closest to the resident . Refer to chapter 7 
+‘Environmental and Facilities Management’ for more information.
+
+[Doc: data/national-ipc-guidelines-for-primary-care_on-moh-website_finalcfeeec720d8e48c88e26b91118c6736f.pdf | Page: 67 | Score: 76.01%]
+Page 66 of 89 
+National Infection Prevention and Control Guidelines for Primary Care, 2022 
+ Low-touch surfaces are those that have minimal contact with hands. Examples include 
+floors, walls, wall clock, ceilings, mirrors, and windowsills. Low-touch surfaces require cleaning 
+on a regular (but not necessarily daily) basis. However, prompt and appropriate cleaning is 
+required when surfaces are visibly soiled, and when patient  leaves the facility. Follow 
+manufacturer’s recommendations for equipment cleaning. 
+ 
+7.7.5 Factors that will impact on environmental cleaning",4,1.235,34.809,18.317,2,2,2,2,100.0,"The response is highly suitable for staff. It clearly defines the need for increased frequency of cleaning, provides specific examples of high-touch surfaces, and offers actionable guidance based on established guidelines.",,
+environmental_cleaning,public,How should frequently touched surfaces be cleaned in hospital patient-care areas?,"To prevent the spread of germs and keep the environment safe, cleaning and disinfecting surfaces is essential, especially those that are frequently touched.
+
+**Key points for cleaning frequently touched areas:**
+
+*   **Focus on High-Touch Areas:** Surfaces that are closer to a patient or are used frequently (like dialysis equipment, chairs, countertops, and areas within the patient zone) pose a greater risk for germs. Cleaning efforts should focus on these high-risk, high-touch surfaces.
+*   **Timing is Important:** Cleaning and disinfection should be done between patient treatments or based on whether the area is a high or low-touch area.
+*   **Use Disinfectants:** Surfaces should be cleaned with disinfectants (such as alcohol wipes or chlorine-based solutions) to effectively remove germs.
+
+**Source Citation:**
+data/national-ipc-guidelines-for-outpatient-dialysis-centres-_-(on-moh-website).pdf (Page 51, 50, 32)
+**Relevance Score:** 69.41%","[Doc: data/national-ipc-guidelines-for-outpatient-dialysis-centres-_-(on-moh-website).pdf | Page: 51 | Score: 69.41%]
+dialysis equipment, toilets, weight machine, dirty utility areas) and general areas (waiting area, 
+offices, corridors, storeroom, wa ter treatment room and pantry). Cleaning prepares the 
+environmental surfaces for decontaminat ion or s terilisation. Cleaning and disinfection is 
+essential to prevent and control the spread of environmental pathogens which must be 
+performed between patient t reatments or depending whether high or low touch area. 
+Examples of high touch areas are those associated within the patient zone and devices used 
+frequently across the clinical area.
+
+[Doc: data/national-ipc-guidelines-for-outpatient-dialysis-centres-_-(on-moh-website).pdf | Page: 32 | Score: 65.54%]
+j) Cleaning of non -critical surfaces (e.g.  dialysis bed or chair, countertops, external 
+surfaces of dialysis machines and equipment) should be done with disinfectant e.g. 
+alcohol wipe after each patient treatment.  
+k) If the surface/item is visibly contaminated with blood or after each Blood Borne Virus -
+infected patient’s dialysis session:  
+i. Pour chlorine based disinfectant (e.g. NaDCC  granules or solution) of at least 
+10,000ppm chlorine over body fluid spills. 
+ii. Wear gloves and use disposable paper towels to clean up body fluids spills.
+
+[Doc: data/national-ipc-guidelines-for-outpatient-dialysis-centres-_-(on-moh-website).pdf | Page: 56 | Score: 63.83%]
+- Thoroughly dust horizontal surfaces of desks, chair legs  
+- Damp mop all hard surface floors 
+- High shelves damp dusting in clinical and water treatment room 
+- Clean all trolleys, clinical waste bins with disinfectant, dry and replace 
+bin liners 
+- Clean and scrub shower recess area to remove soap residue and 
+sanitise/disinfect; run hot and cold water to flush system 
+Monthly 
+Cleaning 
+Entrance area, wa iting room, staff station, consulting rooms/offices, meeting 
+rooms, staff room/kitchen 
+- Thoroughly damp dust all shelves, exhaust ventilators, air condition ing 
+ducts and grills.
+
+[Doc: data/national-ipc-guidelines-for-outpatient-dialysis-centres-_-(on-moh-website).pdf | Page: 50 | Score: 63.04%]
+further divided into two groups: 
+a) High touch surfaces 
+b) Low touch surfaces   
+ 
+Surfaces closer to a patient pose a greater risk for transmission, with frequently 
+touched surfaces more li kely to harbour and transmit micr obial pathogens. A resource-
+effective approach to environmental hygiene should concentrate on high risk, high touch 
+surfaces. 
+ 
+Previous sections have discussed that patients undergoing dialysis are at an increased 
+risk of e xposure to infectious diseases, e specially BBV s (HBV, HCV, HIV), MDROs and",4,0.625,27.398,20.756,2,2,2,2,100.0,"The response is highly suitable for a public audience. It clearly addresses the question and provides actionable, practical steps (focusing on high-touch areas, timing, and using disinfectants) using clear, accessible language.",,
