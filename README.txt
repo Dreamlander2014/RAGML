@@ -12,3 +12,7 @@ Take note for the Data files that would be used for this Local LLM would be from
 https://hpp.moh.gov.sg/guidelines/
 
 run: python app.py
+
+
+note for metric testing files:
+the evaluation scripts are organized in the metric_tests/ directory for repository organization. However, all experiments were conducted locally from the project's root directory (RAGML), alongside app.py, ingest.py, retriever.py, and the Data/ folder.
