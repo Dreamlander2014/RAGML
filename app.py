@@ -25,9 +25,7 @@ Answer strictly using context:
 Question: {question}
 Answer with full clinical technical details, source citation, and the relevance score percentage:""")
 
-# ==========================================
-# 3. PLACE format_docs_with_scores HERE
-# ==========================================
+# 3. Context formatter with role-based filtering
 def format_docs_with_scores(question, role):
     if role == "patient":
         access_filter = {"access_level": "public"}
@@ -83,7 +81,7 @@ with gr.Blocks(title="Clinical Assistant Portal") as demo:
             staff_portal_btn = gr.Button("🩺 Healthcare Staff Portal", variant="secondary", size="lg")
     
     # -------------------------------------------------------------
-    # PAGE 2: STAFF LOGIN SCREEN (New)
+    # PAGE 2: STAFF LOGIN SCREEN
     # -------------------------------------------------------------
     with gr.Column(visible=False) as staff_login_page:
         gr.Markdown("## 🔒 Staff Authentication Required")
@@ -101,7 +99,7 @@ with gr.Blocks(title="Clinical Assistant Portal") as demo:
         login_error_msg = gr.Markdown("", visible=False)
 
     # -------------------------------------------------------------
-    # PAGE 2: PATIENT CHAT INTERFACE
+    # PAGE 3: PATIENT CHAT INTERFACE
     # -------------------------------------------------------------
     with gr.Column(visible=False) as patient_page:
         with gr.Row():
@@ -109,14 +107,14 @@ with gr.Blocks(title="Clinical Assistant Portal") as demo:
             back_btn_p = gr.Button("⬅️ Back")
             
         gr.ChatInterface(
-            fn=lambda q, h: process_role_question(q, h, role="staff"),
+            fn=lambda q, h: process_role_question(q, h, role="patient"), # <-- FIXED: Now correctly passes role="patient"
             chatbot=gr.Chatbot(
                 value=[{"role": "assistant", "content": "Hello! How can I help answer your health guideline questions today?"}]
             )
         )
 
     # -------------------------------------------------------------
-    # PAGE 3: STAFF CHAT INTERFACE
+    # PAGE 4: STAFF CHAT INTERFACE
     # -------------------------------------------------------------
     with gr.Column(visible=False) as staff_page:
         with gr.Row():
@@ -134,7 +132,7 @@ with gr.Blocks(title="Clinical Assistant Portal") as demo:
     # NAVIGATION & AUTHENTICATION LOGIC
     # -------------------------------------------------------------
     
-    # Click Patient from Landing -> Go to Patient Page
+    # Click Patient from Landing -> Go to Patient Page (Single Clean Binding)
     patient_btn.click(
         lambda: (gr.update(visible=False), gr.update(visible=False), gr.update(visible=True), gr.update(visible=False)),
         outputs=[landing_page, staff_login_page, patient_page, staff_page]
@@ -148,12 +146,10 @@ with gr.Blocks(title="Clinical Assistant Portal") as demo:
 
     # Handle Staff Login Validation
     def authenticate_staff(username, password):
-        # Simple mock authentication check (replace with a database check later if needed)
         VALID_USER = "admin"
         VALID_PASS = "clinical123"
         
         if username == VALID_USER and password == VALID_PASS:
-            # Success: Hide login, show staff page, clear error, AND wipe input fields so they aren't saved
             return (
                 gr.update(visible=False),  # Hide login page
                 gr.update(visible=True),   # Show staff chat page
@@ -162,12 +158,11 @@ with gr.Blocks(title="Clinical Assistant Portal") as demo:
                 gr.update(value="")        # Clear password textbox
             )
         else:
-            # Failure: Keep login page open, show error message
             return (
                 gr.update(visible=True),   # Keep login page
                 gr.update(visible=False),  # Keep chat hidden
                 gr.update(value="❌ **Invalid username or password. Please try again.**", visible=True),
-                gr.update(),               # Leave username as is so user can fix it
+                gr.update(),               # Leave username as is
                 gr.update()                # Leave password as is
             )
 
@@ -177,9 +172,7 @@ with gr.Blocks(title="Clinical Assistant Portal") as demo:
         outputs=[staff_login_page, staff_page, login_error_msg, username_input, password_input]
     )
 
-    # -------------------------------------------------------------
-    # NAVIGATION LOGIC
-    # -------------------------------------------------------------
+    # Shared clear credentials state for back buttons
     clear_creds = [
         gr.update(visible=True),   # Show landing page
         gr.update(visible=False),  # Hide login page
@@ -193,10 +186,6 @@ with gr.Blocks(title="Clinical Assistant Portal") as demo:
     back_btn_login.click(
         lambda: clear_creds,
         outputs=[landing_page, staff_login_page, patient_page, staff_page, login_error_msg, username_input, password_input]
-    )
-    patient_btn.click(
-        lambda: (gr.update(visible=False), gr.update(visible=True), gr.update(visible=False)),
-        outputs=[landing_page, patient_page, staff_page]
     )
     back_btn_p.click(
         lambda: clear_creds,
