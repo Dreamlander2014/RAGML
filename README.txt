@@ -13,6 +13,9 @@ https://hpp.moh.gov.sg/guidelines/
 
 run: python app.py
 
+Role-based
+Username: admin
+Password: clinical123
 
 note for metric testing files:
 the evaluation scripts are organized in the metric_tests/ directory for repository organization. However, all experiments were conducted locally from the project's root directory (RAGML), alongside app.py, ingest.py, retriever.py, and the Data/ folder.
