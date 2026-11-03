@@ -17,22 +17,26 @@ def load_and_chunk_documents(data_dir: str = "./data"):
     )
     chunks = text_splitter.split_documents(documents)
 
-    # --- ADD THIS: RBAC Metadata Stamping ---
+# --- RBAC Metadata Stamping ---
     for chunk in chunks:
         source_name = chunk.metadata.get("source", "").lower()
+        content_lower = chunk.page_content.lower()
 
-        # Check for clinical/restricted keywords
+        # Check for clinical/restricted keywords in the chunk text
         restricted_keywords = ["dosage", "mg/kg", "contraindication", "administer", "prescription", "icd-10"]
         
-        # Rule: If the file name indicates a patient guide or public document, tag as public.
-        # Otherwise, default to restricted staff access.
-        # Explicitly map your known files
-        if "primary-care" in source_name or "long-term-care" in source_name or "chs" in source_name:
-            chunk.metadata["access_level"] = "staff"
-        elif "patient" in source_name or "public-guide" in source_name:
+        # Rule 1: Explicitly check filename first
+        if "patient" in source_name or "public-guide" in source_name:
             chunk.metadata["access_level"] = "public"
+        elif any(keyword in source_name for keyword in ["primary-care", "long-term-care", "chs", "outpatient-dialysis"]):
+            chunk.metadata["access_level"] = "staff"
+        
+        # Rule 2: If filename doesn't match, inspect the text content using your keywords
+        elif any(keyword in content_lower for keyword in restricted_keywords):
+            chunk.metadata["access_level"] = "staff"
+        
+        # Rule 3: Fail-closed default for everything else
         else:
-            # Fail-closed default for any unknown file added later
             chunk.metadata["access_level"] = "staff"
 
     print(f"[Ingest] Loaded {len(documents)} pages and created {len(chunks)} chunks.")
