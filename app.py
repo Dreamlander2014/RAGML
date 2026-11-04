@@ -17,7 +17,7 @@ def get_vectorstore():
         print("Loading pre-built vector store from disk...")
         # Load your existing persistent vector store directly (e.g., Chroma persistent client)
         from retriever import load_existing_vectorstore
-        _retriever, _vectorstore = load_existing_vectorstore() 
+        _retriever, _vectorstore = get_hybrid_retriever(chunks)
         print("RAG pipeline ready!")
     return _vectorstore
    
