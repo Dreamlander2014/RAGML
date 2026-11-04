@@ -14,9 +14,8 @@ _vectorstore = None
 def get_vectorstore():
     global _vectorstore, _retriever
     if _vectorstore is None:
-        print("Loading pre-built vector store from disk...")
-        # Load your existing persistent vector store directly (e.g., Chroma persistent client)
-        from retriever import load_existing_vectorstore
+        print("Initializing RAG pipeline and loading documents...")
+        chunks = load_and_chunk_documents("./data")
         _retriever, _vectorstore = get_hybrid_retriever(chunks)
         print("RAG pipeline ready!")
     return _vectorstore
