@@ -8,15 +8,15 @@ from langchain_openai import ChatOpenAI
 import os
 
 # Global placeholders
-retriever, vectorstore = None
-chunks = None
+retriever  = None
+vectorstore = None
 
 def get_vectorstore():
     global _vectorstore, _retriever
     if _vectorstore is None:
         print("Initializing RAG pipeline and loading documents...")
         chunks = load_and_chunk_documents("./data")
-        _retriever, _vectorstore = get_hybrid_retriever(chunks)
+        retriever, vectorstore = get_hybrid_retriever(chunks)
         print("RAG pipeline ready!")
     return _vectorstore
 llm = ChatOpenAI(
