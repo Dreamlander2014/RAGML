@@ -8,8 +8,8 @@ from langchain_openai import ChatOpenAI
 import os
 
 # Global placeholders
-_vectorstore = None
-_retriever = None
+retriever, vectorstore = None
+chunks = None
 
 def get_vectorstore():
     global _vectorstore, _retriever
