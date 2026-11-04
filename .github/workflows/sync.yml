@@ -19,6 +19,6 @@ jobs:
         uses: huggingface/hub-sync@v0.3.0
         with:
           github_repo_id: ${{ github.repository }}
-          huggingface_repo_id: YOUR-HF-USERNAME/YOUR-SPACE-NAME  # <--- Change ONLY this line!
+          huggingface_repo_id: Verdy2015/RAG_ML   # <--- Change ONLY this line!
           hf_token: ${{ secrets.HF_TOKEN }}                       # <--- Keep this exact string!
           repo_type: space
