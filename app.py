@@ -8,7 +8,7 @@ from langchain_openai import ChatOpenAI
 import os
 
 # 1. Initialize RAG once
-chunks = load_and_chunk_documents("./Data")
+chunks = load_and_chunk_documents("./data")
 retriever, vectorstore = get_hybrid_retriever(chunks)
 llm = ChatOpenAI(
     model="google/gemma-4-26b-a4b-it",  # or "google/gemma-4-26b-a4b-it:free"
