@@ -1,0 +1,25 @@
+name: Sync to Hugging Face Hub
+
+on:
+  push:
+    branches: [main] # or master, depending on your main branch name
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  sync-to-hub:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          lfs: true
+
+      - name: Sync to Hugging Face
+        uses: huggingface/hub-sync@v0.3.0
+        with:
+          github_repo_id: ${{ github.repository }}
+          huggingface_repo_id: YOUR-HF-USERNAME/YOUR-SPACE-NAME
+          hf_token: ${{ secrets.HF_TOKEN }}
+          repo_type: space
