@@ -1,0 +1,6 @@
+# Ignore sensitive keys and heavy local databases
+.env
+chroma_db/
+chroma_weight_eval/
+__pycache__/
+*.csv
