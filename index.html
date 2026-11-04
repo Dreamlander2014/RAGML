@@ -6,13 +6,19 @@
   </head>
   <body>
     <gradio-lite>
+      <!-- Ensure requirements list lightweight packages supported by Pyodide -->
+      <gradio-requirements>
+        gradio_client
+      </gradio-requirements>
+
       <gradio-file name="app.py" entrypoint>
 import gradio as gr
 
-def greet(name):
-    return f"Hello {name}!"
+# Add your lightweight Gradio interface logic here
+def respond(query):
+    return f"Clinical RAG Query Received: {query}"
 
-demo = gr.Interface(fn=greet, inputs="text", outputs="text")
+demo = gr.Interface(fn=respond, inputs="text", outputs="text")
 demo.launch()
       </gradio-file>
     </gradio-lite>
