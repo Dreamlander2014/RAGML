@@ -7,18 +7,19 @@ from retriever import get_hybrid_retriever
 from langchain_openai import ChatOpenAI
 import os
 
-# Global placeholders
-retriever  = None
-vectorstore = None
+# Global placeholders with underscores
+_retriever = None
+_vectorstore = None
 
 def get_vectorstore():
     global _vectorstore, _retriever
     if _vectorstore is None:
         print("Initializing RAG pipeline and loading documents...")
         chunks = load_and_chunk_documents("./data")
-        retriever, vectorstore = get_hybrid_retriever(chunks)
+        _retriever, _vectorstore = get_hybrid_retriever(chunks)
         print("RAG pipeline ready!")
     return _vectorstore
+    
 llm = ChatOpenAI(
     model="google/gemma-4-26b-a4b-it",  # or "google/gemma-4-26b-a4b-it:free"
     openai_api_key="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",
@@ -43,6 +44,7 @@ Answer with full clinical technical details, source citation, and the relevance 
 
 # 3. Context formatter with role-based filtering
 def format_docs_with_scores(question, role):
+    vstore = get_vectorstore()  # <-- This fetches the initialized vector store
     if role == "patient":
         access_filter = {"access_level": "public"}
     else:
