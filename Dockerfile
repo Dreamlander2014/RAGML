@@ -14,6 +14,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy application files and data
 COPY . .
 
+RUN python ingest.py
 # Expose Gradio's default port
 EXPOSE 10000
 
