@@ -5,6 +5,7 @@ from langchain_core.output_parsers import StrOutputParser
 from ingest import load_and_chunk_documents
 from retriever import get_hybrid_retriever
 from langchain_openai import ChatOpenAI
+import os
 
 # 1. Initialize RAG once
 chunks = load_and_chunk_documents("./data")
@@ -203,4 +204,6 @@ with gr.Blocks(title="Clinical Assistant Portal") as demo:
     )
 
 if __name__ == "__main__":
+    # Grab port assigned by Render, defaulting to 10000 if running locally
+    port = int(os.environ.get("PORT", 10000))
     demo.launch(server_name="0.0.0.0", share=False)
