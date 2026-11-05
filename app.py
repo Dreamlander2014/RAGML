@@ -4,28 +4,12 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from ingest import load_and_chunk_documents
 from retriever import get_hybrid_retriever
-from langchain_openai import ChatOpenAI
-import os
 
-# Global placeholders with underscores
-_retriever = None
-_vectorstore = None
 
-def get_vectorstore():
-    global _vectorstore, _retriever
-    if _vectorstore is None:
-        print("Initializing RAG pipeline and loading documents...")
-        chunks = load_and_chunk_documents("./data")
-        _retriever, _vectorstore = get_hybrid_retriever(chunks)
-        print("RAG pipeline ready!")
-    return _vectorstore
-   
-llm = ChatOpenAI(
-    model="google/gemma-4-26b-a4b-it",  # or "google/gemma-4-26b-a4b-it:free"
-    openai_api_key="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",
-    openai_api_base="https://openrouter.ai/api/v1",
-    temperature=0.0
-)
+# 1. Initialize RAG once
+chunks = load_and_chunk_documents("./Data")
+retriever, vectorstore = get_hybrid_retriever(chunks)
+llm = ChatOllama(model="gemma4:e4b", temperature=0.0)
 
 # 2. Tailored Prompts for each role
 PATIENT_PROMPT = ChatPromptTemplate.from_template("""
@@ -215,5 +199,4 @@ with gr.Blocks(title="Clinical Assistant Portal") as demo:
     )
 
 if __name__ == "__main__":
-    # Grab port assigned by Render, defaulting to 10000 if running locally
-    demo.launch(server_name="0.0.0.0", share=False, server_port=int(os.environ.get("PORT", 10000)))
+    demo.launch(share=False, debug=True)
