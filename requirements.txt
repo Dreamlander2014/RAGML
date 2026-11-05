@@ -1,9 +1,0 @@
-gradio>=4.0.0
-langchain
-langchain-core
-langchain-community
-langchain-openai
-sentence-transformers
-langchain-ollama
-chromadb
-pypdf
