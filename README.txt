@@ -1,3 +1,6 @@
+The following document and code are done 
+by Vernon Poh Zhen Xuan and Jasmine Nurul Izza Bachtiar
+
 Required installation
 pip install --upgrade pip
 pip install langchain-ollama
