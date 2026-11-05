@@ -1,5 +1,5 @@
 The following document and code are done 
-by Vernon Poh Zhen Xuan and Jasmine Nurul Izza Bachtiar
+by Vernon and Jasmine
 
 Required installation
 pip install --upgrade pip
