@@ -28,7 +28,7 @@ Answer with full clinical technical details, source citation, and the relevance 
 
 # 3. Context formatter with role-based filtering
 def format_docs_with_scores(question, role):
-    vstore = get_vectorstore()  # <-- This fetches the initialized vector store
+
     if role == "patient":
         access_filter = {"access_level": "public"}
     else:
